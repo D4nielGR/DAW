@@ -1,0 +1,8 @@
+Conocer la tecnología de contenedores.
+Utilizar contenedores y da persistencia a los datos usando los distintos tipos de volúmenes.
+Saber generar imágenes de contenedores usando ficheros Dockerfile. Utilizar repositiore de imágenes
+Conocer y utilizar la descomposición de aplicaciones en varios contenedores y su uso con ficheros de tipo docker-compose
+Conocer la utilidad de un proxy inverso (traefik) y utilizarlo correctamente en un entorno de varias aplicaciones en contenedores.
+Desplegar una aplicación de contenedores en un cluster (docker swarm).
+Conocimento básico de servicios en la nube (AWS). Creación de instancias de computación EC2. Despliegue de aplicaciones en un la nube
+Se evaluará mediante entrega de una práctica de cluster (15%) y un examen práctico (85%). Será necesario obtener un calificación de 5 en cada parte para hacer media.
