@@ -1,0 +1,10 @@
+URL descarga deploy Portainer, ojo con los guiones: https://downloads.portainer.io/portainer-agent-stack.yml -o portainer-agent-stack.yml
+
+
+
+CHANGE HOSTNAME DEBIAN
+Método 01: editar los ficheros /etc/hostname y /etc/hosts. Definitivo y resuelve nombres DNS
+Método 02: usando el comando hostname, es un cambio temporal, hasta reinicio.
+Método 03: comando  sudo hostnamectl set-hostname [new Hostname], definitivo pero no resuelve DNS
++info: https://itslinuxfoss.com/change-hostname-debian-12-linux/?utm_content=cmp-true o https://www.linuxjournal.com/content/how-change-hostname-debian-12-bookworm
+
