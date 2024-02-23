@@ -1,0 +1,17 @@
+Servidores web
+Lanzar contenedor con servidor web nginx. Probar. Parar y borrar.
+Lanzar contenedor con servidor web nginx mapeando un directorio del host como sitio web. Probar.
+Lanzar segundo contenedor nginx usando un puerto diferente. Probar. Parar y borrar.
+Lanzar contenedor con servidor web apache. Probar. Parar y borrar.
+Lanzar contenedor con servidor web apache mapeando un directorio del host como sitio web. Probar.
+Lanzar contenedor con servidor web con php. Mapear directorio local con fichero index.php de prueba. Probar. Parar y borrar.
+Lanzar servidor con BD mysql. Acceder a la consola mysql del contenedor. Parar y borrar.
+Multicontenedor
+Crear fichero docker-compose para lanzar una base de datos y un gestor (adminer o phpmyadmin) en dos contenedores. Probar.
+Crear fichero docker-compose para lanzar Wordpress en dos contenedores. Probar.
+Sobre el apartado anterior: Añadir una entrada y un tema nuevo a Wordpress. Probar. Detener y borrar los contenedores. Reiniciar el servicio y comprobar que permanece la entrada y el tema. Si no, solucionar.
+Fuente HTML/CSS/JS para ejemplos: https://drive.google.com/drive/folders/1eJBTgEK5mK11mt2069k3tDUPQxp6Wl-1?usp=share_link
+
+Opcional
+Investigar: Queremos que al lanzar un contenedor mysql se cree una base de datos (y se rellene con datos, etc),. Pista: docker-entrypoint-initdb.d. Puede usar ficheros de ejemplo sql en la unidad compartida.
+traductorEnunciado
